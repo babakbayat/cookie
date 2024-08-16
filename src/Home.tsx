@@ -12,7 +12,7 @@ export default function Home() {
         <div className="h-1/3 bg-default w-full"></div>
         <div className="absolute w-[100px] h-[100px] z-50 rounded-full shadow-xl shadow-default  top-1/3 right-1/2 translate-x-1/2 -translate-y-1/2">
           <Image
-            src="/cookie (1).jpg"
+            src="../assets/cookie1.jpg"
             alt="عمو قناد کوکی"
             width={100}
             height={100}
