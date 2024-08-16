@@ -32,7 +32,7 @@ export default function Menu() {
               removeWrapper
               alt="Card background"
               className="z-0 w-full  h-[100px] object-cover"
-              src="/cookie (1).jpg"
+              src="/cookie1.jpg"
               width={200}
             />
             <p className="text-xs text-justify">
@@ -58,7 +58,7 @@ export default function Menu() {
               removeWrapper
               alt="Card background"
               className="z-0 w-full h-[100px]  object-cover"
-              src="/cookie (2).jpg"
+              src="/cookie2.jpg"
               width={200}
             />
             <p className="text-xs text-justify">
@@ -84,7 +84,7 @@ export default function Menu() {
               removeWrapper
               alt="Card background"
               className="z-0 w-full h-[100px] object-cover"
-              src="/cookie (3).jpg"
+              src="/cookie3.jpg"
               width={200}
             />
             <p className="text-xs text-justify">
@@ -110,7 +110,7 @@ export default function Menu() {
               removeWrapper
               alt="Card background"
               className="z-0 w-full h-[100px] object-cover"
-              src="/cookie (4).jpg"
+              src="/cookie4.jpg"
               width={200}
             />
             <p className="text-xs text-justify">
@@ -136,7 +136,7 @@ export default function Menu() {
               removeWrapper
               alt="Card background"
               className="z-0 w-full h-[100px] object-cover"
-              src="/cookie (5).jpg"
+              src="/cookie5.jpg"
               width={200}
             />
             <p className="text-xs text-justify">
