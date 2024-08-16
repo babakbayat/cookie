@@ -8,6 +8,11 @@ import {
 } from "@nextui-org/react";
 import { ImPriceTag } from "react-icons/im";
 import { Link } from "react-router-dom";
+import cookie1 from "./assets/cookie1.jpg";
+import cookie2 from "./assets/cookie2.jpg";
+import cookie3 from "./assets/cookie3.jpg";
+import cookie4 from "./assets/cookie4.jpg";
+import cookie5 from "./assets/cookie5.jpg";
 
 export default function Menu() {
   return (
@@ -32,7 +37,7 @@ export default function Menu() {
               removeWrapper
               alt="Card background"
               className="z-0 w-full  h-[100px] object-cover"
-              src="/cookie1.jpg"
+              src={cookie1}
               width={200}
             />
             <p className="text-xs text-justify">
@@ -58,7 +63,7 @@ export default function Menu() {
               removeWrapper
               alt="Card background"
               className="z-0 w-full h-[100px]  object-cover"
-              src="/cookie2.jpg"
+              src={cookie2}
               width={200}
             />
             <p className="text-xs text-justify">
@@ -84,7 +89,7 @@ export default function Menu() {
               removeWrapper
               alt="Card background"
               className="z-0 w-full h-[100px] object-cover"
-              src="/cookie3.jpg"
+              src={cookie3}
               width={200}
             />
             <p className="text-xs text-justify">
@@ -110,7 +115,7 @@ export default function Menu() {
               removeWrapper
               alt="Card background"
               className="z-0 w-full h-[100px] object-cover"
-              src="/cookie4.jpg"
+              src={cookie4}
               width={200}
             />
             <p className="text-xs text-justify">
@@ -136,7 +141,7 @@ export default function Menu() {
               removeWrapper
               alt="Card background"
               className="z-0 w-full h-[100px] object-cover"
-              src="/cookie5.jpg"
+              src={cookie5}
               width={200}
             />
             <p className="text-xs text-justify">
