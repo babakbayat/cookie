@@ -2,6 +2,7 @@ import { Button, Image } from "@nextui-org/react";
 import { BiMenu } from "react-icons/bi";
 import { BsInstagram, BsTelegram } from "react-icons/bs";
 import { Link } from "react-router-dom";
+import cookie1 from "./assets/cookie2.jpg";
 
 export default function Home() {
   return (
@@ -12,7 +13,7 @@ export default function Home() {
         <div className="h-1/3 bg-default w-full"></div>
         <div className="absolute w-[100px] h-[100px] z-50 rounded-full shadow-xl shadow-default  top-1/3 right-1/2 translate-x-1/2 -translate-y-1/2">
           <Image
-            src="/cookie1.jpg"
+            src={cookie1}
             alt="عمو قناد کوکی"
             width={100}
             height={100}
