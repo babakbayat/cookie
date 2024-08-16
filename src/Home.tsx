@@ -7,9 +7,9 @@ import qrcode from "./assets/qrcode.png";
 
 export default function Home() {
   return (
-    <main>
-      <section className="h-full flex w-full items-center justify-center pt-[100px] mx-auto max-w-xl">
-        <div className="flex flex-col  relative z-10 mx-4  w-full  h-[300px] border border-b-0 border-slate-700/20  rounded-b-2xl">
+    <main className="min-h-screen  flex flex-col items-center justify-center">
+      <section className="h-full flex w-full items-center justify-center pt-[100px] px-4">
+        <div className="flex flex-col  relative z-10  mx-auto max-w-xl  w-full  h-[300px] border border-b-0 border-slate-700/20  rounded-b-2xl">
           <div className="absolute h-full w-full scale-x-95 -bottom-[13px] border border-slate-700/20 -z-30 bg-primary rounded-xl "></div>
           <div className="absolute h-full w-full scale-x-85 -bottom-[23px] border border-slate-700/20 -z-40 bg-primary rounded-xl "></div>
           <div className="h-1/3 bg-default w-full"></div>
@@ -63,7 +63,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <div className="mx-auto max-w-xl my-8">
+      <div className="flex justify-center my-8">
         <Image
           removeWrapper
           src={qrcode}
